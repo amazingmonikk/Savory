@@ -5,9 +5,9 @@ header, footer {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
-    font-weight: 200;
+    font-weight: 100;
     letter-spacing: 3px;
     text-align: center;
     color: white;
@@ -34,9 +34,9 @@ main {
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 0.2px;
     text-align: left;
     color: rgb(253, 164, 41);
@@ -49,7 +49,6 @@ img {
 }
 
 .recipe {
-    border: 0.3px rgb(74 47 74) solid ;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
     width: 200px;
     overflow: hidden;
@@ -89,7 +88,7 @@ img {
 
 .mins {
     display: inline-block;
-    font-family: ;
+    font-family:'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.3px;
@@ -97,21 +96,20 @@ img {
     color: rgb(74,74,74);
     position: relative;
     bottom: 5px;
-    border: 1px red solid;
     margin: auto;
 }
 
 .description {
-    font-family: "Work sans";  //change
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.29;
     letter-spacing: 0.1px;
     text-align: left;
     color: rgb(74,74,74);
-    padding: 0px 0px 0px 7px;
+    padding: 5px 0px 0px 7px;
     border-top: 1px solid rgb(74,74,74);
-    border: 1px red solid;
+    border-top: 1px rgb(74,74,74) solid;
 }
 
 footer {
