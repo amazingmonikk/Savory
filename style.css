@@ -80,10 +80,10 @@ img {
 }
 
 .time {
-    width: 20px;
+    max-width: 18px;
     height: auto;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .mins {
@@ -95,8 +95,8 @@ img {
     text-align: left;
     color: rgb(74,74,74);
     position: relative;
-    bottom: 5px;
-    margin: auto;
+    bottom: 3px;
+    margin-bottom: 0px;
 }
 
 .description {
@@ -110,6 +110,7 @@ img {
     padding: 5px 0px 0px 7px;
     border-top: 1px solid rgb(74,74,74);
     border-top: 1px rgb(74,74,74) solid;
+    margin-top: auto;
 }
 
 footer {
